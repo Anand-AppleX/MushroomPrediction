@@ -1,0 +1,3 @@
+[$(asctime)s]numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[$(asctime)s]apscheduler.scheduler - INFO - Scheduler started
+[$(asctime)s]werkzeug - INFO -  * Restarting with stat

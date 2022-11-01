@@ -1,0 +1,46 @@
+[$(asctime)s]root - INFO - ======================VALUE FROM SCHEMA PATH======================
+[$(asctime)s]root - INFO - SampleFileName is mushroom_08012020_120000.csv number of columns is 22 LengthOfDateStampInFile 8 LengthOfTimeStampInFile 6 
+[$(asctime)s]root - INFO - ==================== Deleted BAD Directory ====================
+[$(asctime)s]root - INFO - ==================== Deleted GOOD Directory ====================
+[$(asctime)s]root - INFO - ==================== Making Prediction_Raw_files_validated ====================
+[$(asctime)s]root - INFO - ==================== Making Prediction_Raw_files_validated done ====================
+[$(asctime)s]root - INFO - Invalid File Name!! File moved to Bad Raw Folder :: mushrooms24.csv
+[$(asctime)s]root - INFO - Invalid File Name!! File moved to Bad Raw Folder :: mushrooms_012051035_010101.csv
+[$(asctime)s]root - INFO - Valid File name!! File moved to GoodRaw Folder :: mushroom_08012007_120051.csv
+[$(asctime)s]root - INFO - Invalid File Name!! File moved to Bad Raw Folder :: mushroom_08012007_1200510.csv
+[$(asctime)s]root - INFO - ==================== CHECKING NUMBER OF COLUMN ====================
+[$(asctime)s]root - INFO - Succesfully ended file column checking
+[$(asctime)s]root - INFO - ==================== Missing Values Validation Started!! ====================
+[$(asctime)s]root - INFO - Successfully ended missing WholeColumn check
+[$(asctime)s]root - INFO - ==================== Prediction Validation completed ====================
+[$(asctime)s]root - INFO - ==================== seprating comma ====================
+[$(asctime)s]root - INFO - ==================== Done Successfully ====================
+[$(asctime)s]root - INFO - ==================== Replacing missing with  nan ====================
+[$(asctime)s]root - INFO - [] has nan value added
+[$(asctime)s]root - INFO - ====================File appended to good folder====================
+[$(asctime)s]root - INFO - ==================== Adding file to one ====================
+[$(asctime)s]root - INFO - Adding of csv done
+[$(asctime)s]root - INFO - ==================== transformation done completed ====================
+[$(asctime)s]root - INFO - ==================== DataBase Starting ====================
+[$(asctime)s]root - INFO - ==================== MAKING CONNECTION TO DATABASE ====================
+[$(asctime)s]root - INFO - ==================== CONNECTION DONE SUCCESSFULLY ====================
+[$(asctime)s]root - INFO - ==================== NOW INSERTING DATA INTO TABLE ====================
+[$(asctime)s]cassandra.cluster - WARNING - Downgrading core protocol version from 66 to 65 for 0d4fc331-1381-4585-914f-fb4c88807578-us-east1.db.astra.datastax.com:29042:fb1315cb-babd-4844-9bc5-eec8ef38b345. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[$(asctime)s]cassandra.cluster - WARNING - Downgrading core protocol version from 65 to 5 for 0d4fc331-1381-4585-914f-fb4c88807578-us-east1.db.astra.datastax.com:29042:fb1315cb-babd-4844-9bc5-eec8ef38b345. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[$(asctime)s]cassandra.connection - ERROR - Closing connection <AsyncoreConnection(2186859583472) 0d4fc331-1381-4585-914f-fb4c88807578-us-east1.db.astra.datastax.com:29042:fb1315cb-babd-4844-9bc5-eec8ef38b345> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+[$(asctime)s]cassandra.cluster - WARNING - Downgrading core protocol version from 5 to 4 for 0d4fc331-1381-4585-914f-fb4c88807578-us-east1.db.astra.datastax.com:29042:fb1315cb-babd-4844-9bc5-eec8ef38b345. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[$(asctime)s]cassandra.policies - INFO - Using datacenter 'us-east1' for DCAwareRoundRobinPolicy (via host '0d4fc331-1381-4585-914f-fb4c88807578-us-east1.db.astra.datastax.com:29042:fb1315cb-babd-4844-9bc5-eec8ef38b345'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+[$(asctime)s]root - INFO - table dropped!!....
+[$(asctime)s]root - INFO - Reading csv file from good folder done
+[$(asctime)s]root - INFO - id inserted into data
+[$(asctime)s]cassandra.cluster - WARNING - Downgrading core protocol version from 66 to 65 for 0d4fc331-1381-4585-914f-fb4c88807578-us-east1.db.astra.datastax.com:29042:0970eadb-245c-4b9e-8a93-8f476a0f7d12. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[$(asctime)s]cassandra.cluster - WARNING - Downgrading core protocol version from 65 to 5 for 0d4fc331-1381-4585-914f-fb4c88807578-us-east1.db.astra.datastax.com:29042:0970eadb-245c-4b9e-8a93-8f476a0f7d12. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[$(asctime)s]cassandra.connection - ERROR - Closing connection <AsyncoreConnection(2186876991416) 0d4fc331-1381-4585-914f-fb4c88807578-us-east1.db.astra.datastax.com:29042:0970eadb-245c-4b9e-8a93-8f476a0f7d12> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+[$(asctime)s]cassandra.cluster - WARNING - Downgrading core protocol version from 5 to 4 for 0d4fc331-1381-4585-914f-fb4c88807578-us-east1.db.astra.datastax.com:29042:0970eadb-245c-4b9e-8a93-8f476a0f7d12. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[$(asctime)s]cassandra.policies - INFO - Using datacenter 'us-east1' for DCAwareRoundRobinPolicy (via host '0d4fc331-1381-4585-914f-fb4c88807578-us-east1.db.astra.datastax.com:29042:0970eadb-245c-4b9e-8a93-8f476a0f7d12'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+[$(asctime)s]root - INFO - Table created successfully and insertion done to database
+[$(asctime)s]root - INFO - Input file created
+[$(asctime)s]root - INFO - ==================== DataBase Done File Loaded ====================
+[$(asctime)s]root - INFO - Bad files moved to archive
+[$(asctime)s]root - INFO - Bad Raw Data Folder Deleted successfully!!
+[$(asctime)s]root - INFO - ==================== Prediction Validation Completed ====================

@@ -1,0 +1,6 @@
+[$(asctime)s]numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[$(asctime)s]apscheduler.scheduler - INFO - Scheduler started
+[$(asctime)s]werkzeug - WARNING -  * Debugger is active!
+[$(asctime)s]werkzeug - INFO -  * Debugger PIN: 794-798-068
+[$(asctime)s]werkzeug - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[$(asctime)s]werkzeug - INFO - 127.0.0.1 - - [01/Nov/2022 10:18:33] "GET / HTTP/1.1" 200 -

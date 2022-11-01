@@ -1,0 +1,32 @@
+{
+    
+    "SampleFileName": "mushrooms.csv",
+	"LengthOfDateStampInFile": 8,
+	"LengthOfTimeStampInFile": 6,
+    "NumberOfColumns":23,
+    "ColName" : {
+        "class":"VARCHAR",
+         "cap-shape":"VARCHAR",
+          "cap-surface":"VARCHAR",
+           "cap-color":"VARCHAR", 
+            "bruises":"VARCHAR", 
+           "odor":"VARCHAR",
+       "gill-attachment":"VARCHAR",
+        "gill-spacing":"VARCHAR",
+         "gill-size":"VARCHAR",
+          "gill-color":"VARCHAR",
+       "stalk-shape":"VARCHAR",
+        "stalk-root":"VARCHAR",
+         "stalk-surface-above-ring":"VARCHAR",
+       "stalk-surface-below-ring":"VARCHAR",
+        "stalk-color-above-ring":"VARCHAR",
+       "stalk-color-below-ring":"VARCHAR",
+        "veil-type":"VARCHAR",
+         "veil-color":"VARCHAR",
+          "ring-number":"VARCHAR",
+       "ring-type":"VARCHAR",
+        "spore-print-color":"VARCHAR",
+         "population":"VARCHAR",
+          "habitat":"VARCHAR"
+    }
+}

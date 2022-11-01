@@ -1,0 +1,13 @@
+cassandra-driver
+database-connect
+scikit-learn
+pandas
+numpy
+kneed
+matplotlib
+xgboost
+flask
+flask_cors
+flask_monitoringdashboard
+gunicorn
+-e .

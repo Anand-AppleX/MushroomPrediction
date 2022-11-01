@@ -1,0 +1,5 @@
+[$(asctime)s]apscheduler.scheduler - INFO - Scheduler started
+[$(asctime)s]werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[$(asctime)s]werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[$(asctime)s]werkzeug - INFO -  * Restarting with stat
